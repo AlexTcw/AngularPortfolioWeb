@@ -1,26 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Project } from '../_models/Project';
 import { Tag } from '../_models/Tag';
+import { ProjectsService } from '../_services/projects.service';
 
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.css']
+  styleUrls: ['./portfolio.component.css'],
 })
-export class PortfolioComponent {
+export class PortfolioComponent implements OnInit{
 
-  project: Project ={
-    id: 0,
-    name: 'Sample Angular App',
-    summary: 'test Description',
-    description: '',
-    projectLink: '',
-    tags: [Tag.ANGULAR, Tag.TYPESCRIPT],
-    pictures: []
+  projects = {} as Project[];
+
+  constructor(private tittleService: Title, private projectService: ProjectsService) {
+    this.tittleService.setTitle('Jhon Doe - Portfolio');
   }
-
-  constructor (private tittleService: Title){
-    this.tittleService.setTitle('Jhon Doe - Portfolio')
+  ngOnInit(): void {
+    this.projects = this.projectService.GetProjects();
   }
 }
