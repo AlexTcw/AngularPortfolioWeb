@@ -15,10 +15,10 @@ export class HomeComponent implements OnInit {
     private tittleService: Title,
     private projectService: ProjectsService
   ) {
-    this.tittleService.setTitle('Jhon Doe - Home');
+    this.tittleService.setTitle('AlexTcw - Home');
   }
 
   ngOnInit(): void {
-    this.featuredProject = this.projectService.getProjectById(0 );
+    this.featuredProject = this.projectService.getProjectById(0);
   }
 }

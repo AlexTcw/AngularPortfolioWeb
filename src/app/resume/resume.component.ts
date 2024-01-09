@@ -13,7 +13,7 @@ export class ResumeComponent {
   isSkillsOpen: boolean = false;
 
   constructor(private tittleService: Title, private renderer: Renderer2) {
-    this.tittleService.setTitle('Jhon Doe - Resume');
+    this.tittleService.setTitle('AlexTcw - Resume');
   }
 
   DownloadFile() {

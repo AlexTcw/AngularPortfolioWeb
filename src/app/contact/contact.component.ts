@@ -4,10 +4,10 @@ import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent {
-  constructor (private tittleService: Title){
-    this.tittleService.setTitle('Jhon Doe - Contact')
+  constructor(private tittleService: Title) {
+    this.tittleService.setTitle('AlexTcw - Contact');
   }
 }

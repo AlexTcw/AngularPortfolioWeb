@@ -28,7 +28,7 @@ export class PortfolioComponent implements OnInit {
     private tittleService: Title,
     private projectService: ProjectsService
   ) {
-    this.tittleService.setTitle('Jhon Doe - Portfolio');
+    this.tittleService.setTitle('AlexTcw - Portfolio');
   }
   ngOnInit(): void {
     this.projects = this.projectService.GetProjects();
