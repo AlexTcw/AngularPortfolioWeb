@@ -3,32 +3,32 @@ import { Tag } from '../_models/Tag';
 import { Project } from '../_models/Project';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProjectsService {
-
   projects: Project[] = [
     {
       id: 0,
       name: 'Sample Python Project',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png',
+        '../../assets/image1.png',
+        '../../assets/image2.png',
+        '../../assets/image3.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Python project that analyzes stock market data.',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
       tags: [Tag.PYTHON],
     },
+
     {
       id: 1,
       name: 'Sample Angular App',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png',
+        '../../assets/image1.png',
+        '../../assets/image2.png',
+        '../../assets/image3.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Fullstack web app developed using Angular and Node.JS',
@@ -40,9 +40,9 @@ export class ProjectsService {
       id: 2,
       name: 'Sample .Net App',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png',
+        '../../assets/image1.png',
+        '../../assets/image2.png',
+        '../../assets/image3.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Fullstack web app developed using React and ASP.NET',
@@ -54,9 +54,9 @@ export class ProjectsService {
       id: 3,
       name: 'Web API Project',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png',
+        '../../assets/image1.png',
+        '../../assets/image2.png',
+        '../../assets/image3.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Web API Project that was developed for a class project.',
@@ -68,9 +68,9 @@ export class ProjectsService {
       id: 4,
       name: 'Chrome Extension',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png',
+        '../../assets/image1.png',
+        '../../assets/image2.png',
+        '../../assets/image3.png',
       ],
       projectLink: '//www.github.com',
       summary:
@@ -83,9 +83,9 @@ export class ProjectsService {
       id: 5,
       name: 'Mobile App',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png',
+        '../../assets/image1.png',
+        '../../assets/image2.png',
+        '../../assets/image3.png',
       ],
       projectLink: '//www.github.com',
       summary:
@@ -96,19 +96,36 @@ export class ProjectsService {
     },
   ];
 
-  constructor() { }
+  constructor() {}
 
-  GetProjects(){
+  GetProjects() {
     return this.projects;
   }
 
-  getProjectById(id: number) : Project{
-    let project = this.projects.find(project => project.id===id);
+  getProjectById(id: number): Project {
+    let project = this.projects.find((project) => project.id === id);
 
-    if(project === undefined){
-      throw new TypeError('There is no project that matches the id: '+id);      
+    if (project === undefined) {
+      throw new TypeError('There is no project that matches the id: ' + id);
     }
 
     return project;
+  }
+
+  GetProjectsByFilter(filterTags: Tag[]) {
+    let filteredProjects: Project[] = [];
+    this.projects.forEach(function (project) {
+      let foundAll = true;
+
+      filterTags.forEach(function (filterTags) {
+        if (project.tags.includes(filterTags) == false) {
+          foundAll = false;
+        }
+      });
+      if (foundAll) {
+        filteredProjects.push(project);
+      }
+    });
+    return filteredProjects;
   }
 }
