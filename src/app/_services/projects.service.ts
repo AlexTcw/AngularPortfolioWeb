@@ -10,11 +10,7 @@ export class ProjectsService {
     {
       id: 0,
       name: 'Sample Python Project',
-      pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
-      ],
+      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: '//www.github.com',
       summary: 'Python project that analyzes stock market data.',
       description:
@@ -25,11 +21,7 @@ export class ProjectsService {
     {
       id: 1,
       name: 'Sample Angular App',
-      pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
-      ],
+      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: '//www.github.com',
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description:
@@ -39,11 +31,7 @@ export class ProjectsService {
     {
       id: 2,
       name: 'Sample .Net App',
-      pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
-      ],
+      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: '//www.github.com',
       summary: 'Fullstack web app developed using React and ASP.NET',
       description:
@@ -53,11 +41,7 @@ export class ProjectsService {
     {
       id: 3,
       name: 'Web API Project',
-      pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
-      ],
+      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: '//www.github.com',
       summary: 'Web API Project that was developed for a class project.',
       description:
@@ -67,11 +51,7 @@ export class ProjectsService {
     {
       id: 4,
       name: 'Chrome Extension',
-      pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
-      ],
+      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: '//www.github.com',
       summary:
         'Developed a chrome extension that tracks the prices of furniture.',
@@ -82,11 +62,7 @@ export class ProjectsService {
     {
       id: 5,
       name: 'Mobile App',
-      pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
-      ],
+      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: '//www.github.com',
       summary:
         'Mobile app developed in java that tracks the departure and arrival of trains.',
