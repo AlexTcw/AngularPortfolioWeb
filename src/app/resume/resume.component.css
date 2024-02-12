@@ -1,42 +1,45 @@
-accordion-group::ng-deep .btn-link{
-    color: white;
+accordion-group::ng-deep .btn-link {
+  color: white;
 }
 
-accordion-group::ng-deep .card-header{
-    background-color: #007bff;
-    transition: transform 0.3s ease;
+accordion-group::ng-deep .card-header {
+  background-color: #320064;
+  transition: transform 0.3s ease;
+}
+
+accordion-group::ng-deep .card-body {
+  background-color: #f2f2f2;
+  transition: transform 0.3s ease;
 }
 
 accordion-group::ng-deep .card-header:hover {
-    background-color: rgba(0, 123, 255, 0.8);
-    transform: scaleY(1.2);
+  background-color: rgba(0, 123, 255, 0.8);
+  transform: scaleY(1.2);
 }
 
-
-
 #resumeContainer {
- flex-wrap: wrap;    
- display: flex;  
- text-align: left;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: left;
 }
 
 #resumeContainer .img-cert img {
-    width: 20%;
-    margin-left: 10%;
+  width: 20%;
+  margin-left: 10%;
 }
 
-.img-cert{
-    width: 50%;
-    text-align: center;    
+.img-cert {
+  width: 50%;
+  text-align: center;
 }
 
 .body-cert {
-    display: flex; /* establece el contenedor como un contenedor flex */
-    flex-direction: column; /* establece la dirección de los elementos secundarios de arriba hacia abajo */
-    justify-content: center; /* centra verticalmente los elementos dentro del contenedor */
-    align-items: center; /* centra horizontalmente los elementos dentro del contenedor */
-  }
-  
-.body-cert ul{
-    list-style: none;
+  display: flex; /* establece el contenedor como un contenedor flex */
+  flex-direction: column; /* establece la dirección de los elementos secundarios de arriba hacia abajo */
+  justify-content: center; /* centra verticalmente los elementos dentro del contenedor */
+  align-items: center; /* centra horizontalmente los elementos dentro del contenedor */
+}
+
+.body-cert ul {
+  list-style: none;
 }
