@@ -2,9 +2,9 @@ export class Tag{
 
     static readonly ANGULAR = new Tag('Angular', 'red');
     static readonly TYPESCRIPT = new Tag('Typescript', 'darkred');
-    static readonly PYTHON = new Tag('Python', 'pink');
+    static readonly PYTHON = new Tag('Python', 'grey');
     static readonly CSHARP = new Tag('C#', 'green');
-    static readonly JAVA = new Tag('Java', 'orenge');
+    static readonly JAVA = new Tag('Java', 'red');
     static readonly NODEJS = new Tag('Node.JS', 'brown');
     static readonly ASPNET = new Tag('ASP.Net', 'purple');
     static readonly JAVASCRIPT = new Tag('JavaScript', 'orange');
