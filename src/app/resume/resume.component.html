@@ -6,10 +6,7 @@
   <div class="pb-2">
     <accordion [isAnimated]="true" class="shadow">
       <accordion-group [(isOpen)]="isWorkExperienceOpen">
-        <button
-          class="btn btn-block justify-content-between d-flex w-100"
-          accordion-heading
-        >
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
           <div style="visibility: hidden"></div>
 
           <div class="btn-link">Work Experience</div>
@@ -19,28 +16,25 @@
             <div *ngIf="isWorkExperienceOpen" style="color: white">v</div>
           </div>
         </button>
-        <div style="text-align: left">
-          <h2 class="mb-0">Computer Engineer</h2>
-          <h3 class="text-primary">Sample Company</h3>
-          <ul>
-            <li>Lorem</li>
-          </ul>
-        </div>
         <hr />
-        <div style="text-align: left">
-          <h2 class="mb-0">Computer Engineer</h2>
-          <h3 class="text-primary">Sample Company</h3>
-          <ul>
-            <li>Lorem</li>
-          </ul>
+        <div class="mb-0" id="resumeContainer">
+          <article class="img-cert">
+            <img src="assets/redalyc.png" alt="" style="width: 40%;">
+          </article>
+          <article class="body-cert">
+            <h2 class="mb-0">Backend development <br> intern</h2>
+            <a href="https://www.redalyc.org/">
+              <h3 class="text-primary">Redalyc</h3>
+            </a>
+            <ul>
+              <li>2023-2024</li>
+            </ul>
+          </article>
         </div>
         <hr />
       </accordion-group>
       <accordion-group [(isOpen)]="isEducationOpen">
-        <button
-          class="btn btn-block justify-content-between d-flex w-100"
-          accordion-heading
-        >
+        <button class="btn btn-block justify-content-between d-flex w-100" id="acordionbutton" accordion-heading>
           <div style="visibility: hidden"></div>
 
           <div class="btn-link">Education</div>
@@ -50,28 +44,25 @@
             <div *ngIf="isEducationOpen" style="color: white">v</div>
           </div>
         </button>
-        <div style="text-align: left">
-          <h2 class="mb-0">Computer Engineer</h2>
-          <h3 class="text-primary">Sample Company</h3>
-          <ul>
-            <li>Lorem</li>
-          </ul>
-        </div>
         <hr />
-        <div style="text-align: left">
-          <h2 class="mb-0">Computer Engineer</h2>
-          <h3 class="text-primary">Sample Company</h3>
-          <ul>
-            <li>Lorem</li>
-          </ul>
+        <div class="mb-0" id="resumeContainer">
+          <article class="img-cert">
+            <img src="assets/filogo.jpeg" alt="" style="width: 40%; border-radius: 10px;">
+          </article>
+          <article class="body-cert">
+            <h2 class="mb-0">Computer Engineer</h2>
+            <a href="https://fi.uaemex.mx/portal/inicio/home.php">
+              <h3 class="text-primary">Facultad de Ingenieria</h3>
+            </a>
+            <ul>
+              <li>UAEMex</li>
+            </ul>
+          </article>
         </div>
         <hr />
       </accordion-group>
       <accordion-group [(isOpen)]="isCertificationsOpen">
-        <button
-          class="btn btn-block justify-content-between d-flex w-100"
-          accordion-heading
-        >
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
           <div style="visibility: hidden"></div>
 
           <div class="btn-link">Certifications</div>
@@ -81,28 +72,24 @@
             <div *ngIf="isCertificationsOpen" style="color: white">v</div>
           </div>
         </button>
-        <div style="text-align: left">
-          <h2 class="mb-0">Computer Engineer</h2>
-          <h3 class="text-primary">Sample Company</h3>
-          <ul>
-            <li>Lorem</li>
-          </ul>
-        </div>
         <hr />
-        <div style="text-align: left">
-          <h2 class="mb-0">Computer Engineer</h2>
-          <h3 class="text-primary">Sample Company</h3>
-          <ul>
-            <li>Lorem</li>
-          </ul>
+        <div class="mb-0" id="resumeContainer">
+          <article class="img-cert">
+            <img src="assets/javascript-essentials-1.png" alt="" style="width: 40%;">
+          </article>
+          <article class="body-cert">
+            <a href="https://www.credly.com/badges/2a3e846e-dd6d-49c0-8d46-7b14969a0c3f/public_url">
+              <h3 class="text-primary">JavaScript Essentials 1</h3>
+            </a>
+            <ul>
+              <li>Issued by <a href="https://www.credly.com/org/cisco">Cisco</a></li>
+            </ul>
+          </article>
         </div>
         <hr />
       </accordion-group>
       <accordion-group [(isOpen)]="isSkillsOpen">
-        <button
-          class="btn btn-block justify-content-between d-flex w-100"
-          accordion-heading
-        >
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
           <div style="visibility: hidden"></div>
 
           <div class="btn-link">Skills</div>
@@ -116,14 +103,17 @@
           <div class="col">
             <h3>Programming Languages</h3>
             <ul>
-              <li>C#</li>
-              <li>TypeScript</li>
+              <li>Java</li>
+              <li>Typecript</li>
+              <li>Javascript</li>
+              <li>Python</li>
             </ul>
           </div>
           <div class="col">
             <h3>FrameWorks:</h3>
             <ul>
               <li>Angular</li>
+              <li>SptingBoot</li>
             </ul>
           </div>
           <div class="col">

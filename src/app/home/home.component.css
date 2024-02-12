@@ -1,0 +1,9 @@
+#about-me,#featured-project{
+    border-radius: 10px;
+    background-color: #0d1117;
+    color: #fff;    
+}
+
+#about-me p,h2,img,#featured-project p,h2,img{
+    margin-top: 5%;
+}
