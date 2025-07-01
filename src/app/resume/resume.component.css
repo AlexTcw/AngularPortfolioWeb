@@ -43,3 +43,9 @@ accordion-group::ng-deep .card-header:hover {
 .body-cert ul {
   list-style: none;
 }
+
+.skills-image {
+  width: 20%;
+  border-radius: 10px;
+  margin: 20px;
+}
