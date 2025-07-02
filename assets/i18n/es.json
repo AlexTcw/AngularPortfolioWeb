@@ -1,0 +1,58 @@
+{
+  "home": {
+    "overview": "Soy un Desarrollador Java Jr con más de dos años de experiencia en el desarrollo y mantenimiento de aplicaciones utilizando Java 8+, Spring Framework (Boot, Data, Security) y SQL. Tengo habilidades sólidas en Linux, Javascript, HTML, CSS, Docker, Docker Compose, Azure, AWS como medios de despliegue de mis aplicaciones. También cuento con experiencia en el uso de bases de datos como Oracle y PostgreSQL, además de conocimientos básicos en Angular 16 Mi objetivo es contribuir al crecimiento de una empresa innovadora, donde puedo aplicar mis conocimientos técnicos y continuar desarrollándome profesionalmente en un entorno multicultural y dinámico.",
+    "about_me": "Sobre mí",
+    "featured": "Proyecto Destacado",
+    "visit": "Visite la sección de portafolio para obtener más información!"
+  },
+  "header": {
+    "title": "Ingeniero en computación"
+  },
+  "resume": {
+    "download": "Descargar Currículum en PDF",
+    "experience":"Experiencia de trabajo",
+    "develop": "Inertno en Desarrollo Backend",
+    "date": "2023 - presente",
+    "edu": "Estudios",
+    "title": "Ingeniero en computación",
+    "certs": "Certificados",
+    "issued": "Emitido por",
+    "skills": "Habilidades ",
+    "other": "Otras Habilidades",
+    "languages": "Lenguajes de programación"
+  },
+  "contact":{
+    "title": "Contacto",
+    "email": "Puede ponerse en contacto con el siguiente correo electrónico",
+    "platform": "Siéntase libre de conectarse conmigo en cualquiera de las siguientes plataformas"
+  },
+  "nav": {
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "resume": "Currículum",
+    "contact": "Contacto"
+  },
+  "projects": {
+    "parking": {
+      "summary": "Aplicación web full-stack desarrollada con Spring Boot para el backend y Angular para el frontend.",
+      "description": "Un completo sistema de gestión de estacionamientos full-stack que utiliza autenticación por huella digital. Este proyecto aprovecha tecnologías como Docker, MySQL, Spring Boot y Angular para ofrecer una solución eficiente y fluida en la administración de espacios de estacionamiento con mayor seguridad."
+    },
+    "eshop": {
+      "angular": {
+        "summary": "Panel de administración en Angular para gestionar productos, pedidos y usuarios en una aplicación de comercio electrónico.",
+        "description": "Panel administrativo basado en Angular para gestionar las operaciones de una tienda en línea, incluyendo el catálogo de productos, pedidos, usuarios, inventario y promociones. Diseñado con una interfaz responsiva y manejo de datos en tiempo real para una experiencia administrativa eficiente."
+      },
+      "spring": {
+        "summary": "Backend en Spring Boot para gestionar datos de comercio electrónico y operaciones de usuario.",
+        "description": "API RESTful construida con Spring Boot para administrar productos, pedidos, usuarios y pagos en una plataforma de comercio electrónico."
+      }
+    }
+  },
+  "card": {
+    "message": "puedes encontrar este proyecto en Github ",
+    "here": "aquí",
+    "description": "Descripción"
+  },
+  "portfolio" : "Filtrar",
+  "reset": "Quitar filtros"
+}

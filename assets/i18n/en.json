@@ -1,0 +1,58 @@
+{
+  "home": {
+    "overview": "I am a Junior Java Developer with over two years of experience in developing and maintaining applications using Java 8+, the Spring Framework (Boot, Data, Security), and SQL. I have strong skills in Linux, JavaScript, HTML, CSS, Docker, Docker Compose, Azure, and AWS as deployment platforms for my applications. I also have experience working with databases such as Oracle and PostgreSQL, along with basic knowledge of Angular 16. My goal is to contribute to the growth of an innovative company where I can apply my technical expertise and continue growing professionally in a multicultural and dynamic environment.",
+    "about_me": "About Me",
+    "featured": "Featured Project",
+    "visit": "Visit the Portfolio Section for more!"
+  },
+  "header": {
+    "title": "Computer Engineer"
+  },
+  "resume": {
+    "download": "Download PDF Resume",
+    "experience":"Work Experience",
+    "develop": "Backend Development Intern",
+    "date": "2023 - present",
+    "edu": "Education",
+    "title": "Computer Engineer",
+    "certs": "Certifications",
+    "issued": "Issued by",
+    "skills": "Skills",
+    "other": "Other Skills",
+    "languages": "Programming Languages"
+  },
+  "contact":{
+    "title": "Contact",
+    "email": "I Can be reached at the following email",
+    "platform": "Feel free to connect with me on any of the following platforms"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "projects": {
+    "parking": {
+      "summary": "Full-stack web application developed using Spring Boot for the backend and Angular for the frontend.",
+      "description": "A comprehensive fullstack parking management system utilizing fingerprint authentication. This project leverages Docker, MySQL, Spring Boot, and Angular to provide a seamless and efficient solution for managing parking spaces with enhanced security."
+    },
+    "eshop": {
+      "angular": {
+        "summary": "Angular admin panel for managing products, orders, and users in an e-commerce app.",
+        "description": "Angular-based admin dashboard for managing eShop operations, including product catalog, orders, users, inventory, and promotions. Designed with responsive UI and real-time data handling for an efficient administrative experience."
+      },
+      "spring": {
+        "summary": "Spring Boot backend for managing e-commerce data and user operations.",
+        "description": "RESTful API built with Spring Boot to manage products, orders, users, and payments for an e-commerce platform."
+      }
+    }
+  },
+  "card": {
+    "message": "you can find thist project on Github ",
+    "here": "here",
+    "description": "Description"
+  },
+  "portfolio" : "Filter",
+  "reset": "Reset"
+}
