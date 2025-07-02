@@ -32,5 +32,27 @@
     "resume": "Resume",
     "contact": "Contact"
   },
-  "portfolio" : "Filter"
+  "projects": {
+    "parking": {
+      "summary": "Full-stack web application developed using Spring Boot for the backend and Angular for the frontend.",
+      "description": "A comprehensive fullstack parking management system utilizing fingerprint authentication. This project leverages Docker, MySQL, Spring Boot, and Angular to provide a seamless and efficient solution for managing parking spaces with enhanced security."
+    },
+    "eshop": {
+      "angular": {
+        "summary": "Angular admin panel for managing products, orders, and users in an e-commerce app.",
+        "description": "Angular-based admin dashboard for managing eShop operations, including product catalog, orders, users, inventory, and promotions. Designed with responsive UI and real-time data handling for an efficient administrative experience."
+      },
+      "spring": {
+        "summary": "Spring Boot backend for managing e-commerce data and user operations.",
+        "description": "RESTful API built with Spring Boot to manage products, orders, users, and payments for an e-commerce platform."
+      }
+    }
+  },
+  "card": {
+    "message": "you can find thist project on Github ",
+    "here": "here",
+    "description": "Description"
+  },
+  "portfolio" : "Filter",
+  "reset": "Reset"
 }

@@ -16,11 +16,11 @@
     </div>
   </carousel>
 
-  <h3 class="mt-2">Description</h3>
-  <p>{{ project.description }}</p>
+  <h3 class="mt-2">{{'card.description'| translate}}</h3>
+  <p>{{ project.description | translate}}</p>
   <p>
-    you can find thist project on Github
-    <a href="{{ project.projectLink }}" target="_blank">here</a>
+    {{'card.message'| translate}}
+    <a href="{{ project.projectLink }}" target="_blank">{{'card.here'| translate}}</a>
   </p>
   <hr />
   <div class="d-flex flex-wrap">

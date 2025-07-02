@@ -2,11 +2,11 @@ import { Tag } from "./Tag";
 
 export interface Project{
     id: number;
-    name: String;
-    summary: String;
-    description: String;
-    projectLink: String;
-    pictures: String [];
+    name: string;
+    summary: string;
+    description: string;
+    projectLink: string;
+    pictures: string [];
     tags: Tag[];
 
 }

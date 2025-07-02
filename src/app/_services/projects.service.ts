@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Tag } from '../_models/Tag';
 import { Project } from '../_models/Project';
 
+
 @Injectable({
   providedIn: 'root',
 })
@@ -12,9 +13,8 @@ export class ProjectsService {
       name: 'Parking system',
       pictures: ['assets/img/projects/fsParking.jpg', 'assets/img/projects/fs2.jpg', 'assets/img/projects/fs3.jpg'],
       projectLink: 'https://github.com/AlexTcw/FSFingerprintParkingSystem',
-      summary: 'Full-stack web application developed using Spring Boot for the backend and Angular for the frontend.',
-      description:
-        'A comprehensive fullstack parking management system utilizing fingerprint authentication. This project leverages Docker, MySQL, Spring Boot, and Angular to provide a seamless and efficient solution for managing parking spaces with enhanced security.',
+      summary: 'projects.parking.summary',
+      description: 'projects.parking.description',
       tags: [Tag.JAVA,Tag.ANGULAR,Tag.MYSQL,Tag.TYPESCRIPT,Tag.SPRINGBOOT],
     },
 
@@ -23,9 +23,8 @@ export class ProjectsService {
       name: 'e-shop Angular App',
       pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: 'https://github.com/AlexTcw/Tienda_front.git',
-      summary: 'Angular admin panel for managing products, orders, and users in an e-commerce app.',
-      description:
-        'Angular-based admin dashboard for managing eShop operations, including product catalog, orders, users, inventory, and promotions. Designed with responsive UI and real-time data handling for an efficient administrative experience.',
+      summary: 'projects.eshop.angular.summary',
+      description: 'projects.eshop.angular.description',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT],
     },
     {
@@ -33,9 +32,8 @@ export class ProjectsService {
       name: 'e-shop Springboot App',
       pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
       projectLink: 'https://github.com/AlexTcw/Tienda_back',
-      summary: 'Spring Boot backend for managing e-commerce data and user operations.',
-      description:
-        'RESTful API built with Spring Boot to manage products, orders, users, and payments for an e-commerce platform.',
+      summary: 'projects.eshop.spring.summary',
+      description: 'projects.eshop.spring.description',
       tags: [Tag.SPRINGBOOT, Tag.POSTGRESQL, Tag.JAVA],
     },
     {

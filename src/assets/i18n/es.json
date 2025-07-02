@@ -32,5 +32,27 @@
     "resume": "Currículum",
     "contact": "Contacto"
   },
-  "portfolio" : "Filtrar"
+  "projects": {
+    "parking": {
+      "summary": "Aplicación web full-stack desarrollada con Spring Boot para el backend y Angular para el frontend.",
+      "description": "Un completo sistema de gestión de estacionamientos full-stack que utiliza autenticación por huella digital. Este proyecto aprovecha tecnologías como Docker, MySQL, Spring Boot y Angular para ofrecer una solución eficiente y fluida en la administración de espacios de estacionamiento con mayor seguridad."
+    },
+    "eshop": {
+      "angular": {
+        "summary": "Panel de administración en Angular para gestionar productos, pedidos y usuarios en una aplicación de comercio electrónico.",
+        "description": "Panel administrativo basado en Angular para gestionar las operaciones de una tienda en línea, incluyendo el catálogo de productos, pedidos, usuarios, inventario y promociones. Diseñado con una interfaz responsiva y manejo de datos en tiempo real para una experiencia administrativa eficiente."
+      },
+      "spring": {
+        "summary": "Backend en Spring Boot para gestionar datos de comercio electrónico y operaciones de usuario.",
+        "description": "API RESTful construida con Spring Boot para administrar productos, pedidos, usuarios y pagos en una plataforma de comercio electrónico."
+      }
+    }
+  },
+  "card": {
+    "message": "puedes encontrar este proyecto en Github ",
+    "here": "aquí",
+    "description": "Descripción"
+  },
+  "portfolio" : "Filtrar",
+  "reset": "Quitar filtros"
 }
