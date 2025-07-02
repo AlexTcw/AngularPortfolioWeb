@@ -7,5 +7,30 @@
   },
   "header": {
     "title": "Ingeniero en computación"
-  }
+  },
+  "resume": {
+    "download": "Descargar Currículum en PDF",
+    "experience":"Experiencia de trabajo",
+    "develop": "Inertno en Desarrollo Backend",
+    "date": "2023 - presente",
+    "edu": "Estudios",
+    "title": "Ingeniero en computación",
+    "certs": "Certificados",
+    "issued": "Emitido por",
+    "skills": "Habilidades ",
+    "other": "Otras Habilidades",
+    "languages": "Lenguajes de programación"
+  },
+  "contact":{
+    "title": "Contacto",
+    "email": "Puede ponerse en contacto con el siguiente correo electrónico",
+    "platform": "Siéntase libre de conectarse conmigo en cualquiera de las siguientes plataformas"
+  },
+  "nav": {
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "resume": "Currículum",
+    "contact": "Contacto"
+  },
+  "portfolio" : "Filtrar"
 }

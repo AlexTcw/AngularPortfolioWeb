@@ -1,6 +1,6 @@
 <div class="container text-center">
   <button (click)="DownloadFile()" class="btn btn-primary mb-5 shadow" style="background-color: #320064; border: none;">
-    Download PDF Resume
+    {{'resume.download' | translate}}
   </button>
 
   <div class="pb-2">
@@ -9,7 +9,7 @@
         <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
           <div style="visibility: hidden"></div>
 
-          <div class="btn-link">Work Experience</div>
+          <div class="btn-link">{{'resume.experience' | translate}}</div>
 
           <div style="width: 11px">
             <div *ngIf="!isWorkExperienceOpen" style="color: white">></div>
@@ -19,16 +19,16 @@
         <hr />
         <div class="mb-0" id="resumeContainer">
           <article class="img-cert">
-            <img class="shadow-lg" ngSrc="../../logos/redalyc.png" alt="" style="width: 40%; border-radius: 10px;"
+            <img class="shadow-lg" ngSrc="./assets/img/logos/redalyc.png" alt="" style="width: 40%; border-radius: 10px;"
                  height="224" width="224">
           </article>
           <article class="body-cert">
-            <h2 class="mb-0">Backend development <br> intern</h2>
+            <h2 class="mb-0">{{'resume.develop' | translate}}</h2>
             <a href="https://www.redalyc.org/">
               <h3 class="text-primary">Redalyc</h3>
             </a>
             <ul>
-              <li>2023-present</li>
+              <li>{{'resume.date' | translate}}</li>
             </ul>
           </article>
         </div>
@@ -38,7 +38,7 @@
         <button class="btn btn-block justify-content-between d-flex w-100" id="acordionbutton" accordion-heading>
           <div style="visibility: hidden"></div>
 
-          <div class="btn-link">Education</div>
+          <div class="btn-link">{{'resume.edu' | translate}}</div>
 
           <div style="width: 11px">
             <div *ngIf="!isEducationOpen" style="color: white">></div>
@@ -48,16 +48,16 @@
         <hr />
         <div class="mb-0" id="resumeContainer">
           <article class="img-cert">
-            <img class="shadow-lg" ngSrc="../../logos/filogo.jpeg" alt="" style="width: 40%; border-radius: 10px;"
+            <img class="shadow-lg" ngSrc="./assets/img/logos/filogo.jpeg" alt="" style="width: 40%; border-radius: 10px;"
                  height="225" width="225">
           </article>
           <article class="body-cert">
-            <h2 class="mb-0">Computer Engineer</h2>
+            <h2 class="mb-0">{{'resume.title'| translate}}</h2>
             <a href="https://fi.uaemex.mx/portal/inicio/home.php">
               <h3 class="text-primary">Facultad de Ingenieria</h3>
             </a>
             <ul>
-              <li>UAEMex</li>
+              <li>UAEM</li>
             </ul>
           </article>
         </div>
@@ -66,7 +66,7 @@
       <accordion-group [(isOpen)]="isCertificationsOpen">
         <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
           <div style="visibility: hidden"></div>
-          <div class="btn-link">Certifications</div>
+          <div class="btn-link">{{'resume.certs'| translate}}</div>
           <div style="width: 11px">
             <div *ngIf="!isCertificationsOpen" style="color: white">></div>
             <div *ngIf="isCertificationsOpen" style="color: white">v</div>
@@ -77,45 +77,45 @@
 
           <!-- Certificación 1 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <img src="../../certifications/javascript-essentials-1.png" alt="JavaScript Essentials 1" style="width: 100%; max-width: 250px;">
+            <img src="./assets/img/certs/javascript-essentials-1.png" alt="JavaScript Essentials 1" style="width: 100%; max-width: 250px;">
             <a href="https://www.credly.com/badges/2a3e846e-dd6d-49c0-8d46-7b14969a0c3f/public_url">
               <h3 class="text-primary text-center">JavaScript Essentials 1</h3>
             </a>
             <ul>
-              <li>Issued by <a href="https://www.credly.com/org/cisco">Cisco</a></li>
+              <li>{{'resume.issued' | translate}} <a href="https://www.credly.com/org/cisco">Cisco</a></li>
             </ul>
           </div>
 
           <!-- Certificación 2 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <img src="../../certs/TecnicoBigData.png" alt="Técnico en Big Data" style="width: 100%; max-width: 250px;">
+            <img src="./assets/img/certs/TecnicoBigData.png" alt="Técnico en Big Data" style="width: 100%; max-width: 250px;">
             <a href="https://capacitateparaelempleo.org/verifica/a7f27536-e042-4368-b4ac-ed89d2c38cdb/e4c10d07-8f13-4c20-abea-a8a3f5ad789a">
               <h3 class="text-primary text-center">Técnico en Big Data</h3>
             </a>
             <ul>
-              <li>Issued by <a href="https://capacitateparaelempleo.org/">Fundación Carlos Slim</a></li>
+              <li>{{'resume.issued' | translate}} <a href="https://capacitateparaelempleo.org/">Fundación Carlos Slim</a></li>
             </ul>
           </div>
 
           <!-- Certificación 3 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <img src="../../certs/TecnicoComputoNube.png" alt="Técnico en Cómputo en la Nube" style="width: 100%; max-width: 250px;">
+            <img src="./assets/img/certs/TecnicoComputoNube.png" alt="Técnico en Cómputo en la Nube" style="width: 100%; max-width: 250px;">
             <a href="https://capacitateparaelempleo.org/verifica/a7f27536-e042-4368-b4ac-ed89d2c38cdb/880929d3-9f74-4673-8018-4c5534aa546f">
               <h3 class="text-primary text-center">Técnico en Cómputo en la Nube</h3>
             </a>
             <ul>
-              <li>Issued by <a href="https://capacitateparaelempleo.org/">Fundación Carlos Slim</a></li>
+              <li>{{'resume.issued' | translate}} <a href="https://capacitateparaelempleo.org/">Fundación Carlos Slim</a></li>
             </ul>
           </div>
 
           <!-- Certificación 4 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <img src="../../certs/TecnicoInteligenciaNegocios.png" alt="Técnico en BI" style="width: 100%; max-width: 250px;">
+            <img src="./assets/img/certs/TecnicoInteligenciaNegocios.png" alt="Técnico en BI" style="width: 100%; max-width: 250px;">
             <a href="https://capacitateparaelempleo.org/verifica/a7f27536-e042-4368-b4ac-ed89d2c38cdb/6acfc150-39e8-482f-81b9-e35d8ceab7be">
               <h3 class="text-primary text-center">Técnico en BI</h3>
             </a>
             <ul>
-              <li>Issued by <a href="https://capacitateparaelempleo.org/">Fundación Carlos Slim</a></li>
+              <li>{{'resume.issued' | translate}} <a href="https://capacitateparaelempleo.org/">Fundación Carlos Slim</a></li>
             </ul>
           </div>
 
@@ -126,7 +126,7 @@
         <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
           <div style="visibility: hidden"></div>
 
-          <div class="btn-link">Skills</div>
+          <div class="btn-link">{{'resume.skills' | translate}}</div>
 
           <div style="width: 11px">
             <div *ngIf="!isSkillsOpen" style="color: white">></div>
@@ -135,28 +135,28 @@
         </button>
         <div class="row" style="text-align: left">
           <div class="col">
-            <h3>Programming Languages</h3>
+            <h3>{{'resume.languages' | translate}}</h3>
             <ul style="list-style: none; padding-left: 0;">
-              <li><img class="skills-image" src="../../assets/skills/java.webp" alt="java_logo"></li>
-              <li><img class="skills-image" src="../../assets/skills/ts.png" alt="ts_logo"></li>
-              <li><img class="skills-image" src="../../assets/skills/js.png" alt="js_logo"></li>
-              <li><img class="skills-image" src="../../assets/skills/py.webp" alt="py_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/java.webp" alt="java_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/ts.png" alt="ts_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/js.png" alt="js_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/py.webp" alt="py_logo"></li>
             </ul>
           </div>
           <div class="col">
             <h3>FrameWorks:</h3>
             <ul style="list-style: none; padding-left: 0;">
-              <li><img class="skills-image" src="../../assets/skills/angular.png" alt="angular_logo"></li>
-              <li><img class="skills-image" src="../../assets/skills/spring-boot.png" alt="sb_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/angular.png" alt="angular_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/spring-boot.png" alt="sb_logo"></li>
             </ul>
           </div>
           <div class="col">
-            <h3>Other Skills:</h3>
+            <h3>{{'resume.other'| translate}}:</h3>
             <ul style="list-style: none; padding-left: 0;">
-              <li><img class="skills-image" src="../../assets/skills/docker.png" alt="docker_logo"></li>
-              <li><img class="skills-image" src="../../assets/skills/arch.png" alt="arch_logo"></li>
-              <li><img class="skills-image" src="../../assets/skills/oracle.png" alt="oracle_logo"></li>
-              <li><img class="skills-image" src="../../assets/skills/postgresql.png" alt="postgres_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/docker.png" alt="docker_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/arch.png" alt="arch_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/oracle.png" alt="oracle_logo"></li>
+              <li><img class="skills-image" src="./assets/img/skills/postgresql.png" alt="postgres_logo"></li>
             </ul>
           </div>
         </div>

@@ -7,5 +7,30 @@
   },
   "header": {
     "title": "Computer Engineer"
-  }
+  },
+  "resume": {
+    "download": "Download PDF Resume",
+    "experience":"Work Experience",
+    "develop": "Backend Development Intern",
+    "date": "2023 - present",
+    "edu": "Education",
+    "title": "Computer Engineer",
+    "certs": "Certifications",
+    "issued": "Issued by",
+    "skills": "Skills",
+    "other": "Other Skills",
+    "languages": "Programming Languages"
+  },
+  "contact":{
+    "title": "Contact",
+    "email": "I Can be reached at the following email",
+    "platform": "Feel free to connect with me on any of the following platforms"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "portfolio" : "Filter"
 }
