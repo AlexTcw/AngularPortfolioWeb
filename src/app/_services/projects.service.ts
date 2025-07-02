@@ -10,7 +10,7 @@ export class ProjectsService {
     {
       id: 0,
       name: 'Parking system',
-      pictures: ['assets/fsParking.jpg', 'assets/fs2.jpg', 'assets/fs3.jpg'],
+      pictures: ['assets/img/projects/fsParking.jpg', 'assets/img/projects/fs2.jpg', 'assets/img/projects/fs3.jpg'],
       projectLink: 'https://github.com/AlexTcw/FSFingerprintParkingSystem',
       summary: 'Full-stack web application developed using Spring Boot for the backend and Angular for the frontend.',
       description:

@@ -3,17 +3,15 @@
     <!--About me-->
     <div class="col-lg shadow m-2 " id="about-me">
       <div class="text-center">
-        <h2>About Me</h2>
-        <img ngSrc="assets/profile.jpeg" alt="profile-picture" width="359" height="359" class="rounded-circle" />
-        <p style="text-align: justify; padding: 20px">
-          Soy un Desarrollador Java Jr con más de dos años de experiencia en el desarrollo y mantenimiento de aplicaciones utilizando Java 8+, Spring Framework (Boot, Data, Security) y SQL. Tengo habilidades sólidas en Linux, Javascript, HTML, CSS, Docker, Docker Compose, Azure, AWS como medios de despliegue de mis aplicaciones. También cuento con experiencia en el uso de bases de datos como Oracle y PostgreSQL, además de conocimientos básicos en Angular 16 Mi objetivo es contribuir al crecimiento de una empresa innovadora, donde puedo aplicar mis conocimientos técnicos y continuar desarrollándome profesionalmente en un entorno multicultural y dinámico.
-        </p>
+        <h2>{{'home.about_me' | translate}}</h2>
+        <img ngSrc="./assets/img/logos/profile.jpeg" alt="profile-picture" width="280" height="280" class="rounded-circle" />
+        <p style="text-align: justify; padding: 20px">{{'home.overview' | translate}}</p>
       </div>
     </div>
     <!--Featured Project-->
     <div class="col-lg shadow m-2" id="featured-project">
       <div class="text-center">
-        <h2>Featured Project</h2>
+        <h2>{{'home.featured' | translate}}</h2>
         <h4>{{ featuredProject.name }}</h4>
       </div>
       <carousel>
@@ -24,7 +22,7 @@
         </div>
       </carousel>
       <p class="m2-2">{{ featuredProject.summary }}</p>
-      <p>Visit the Portfolio Section for more!</p>
+      <p>{{'home.visit' | translate}}</p>
     </div>
   </div>
 </div>

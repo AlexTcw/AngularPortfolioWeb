@@ -1,0 +1,11 @@
+{
+  "home": {
+    "overview": "I am a Junior Java Developer with over two years of experience in developing and maintaining applications using Java 8+, the Spring Framework (Boot, Data, Security), and SQL. I have strong skills in Linux, JavaScript, HTML, CSS, Docker, Docker Compose, Azure, and AWS as deployment platforms for my applications. I also have experience working with databases such as Oracle and PostgreSQL, along with basic knowledge of Angular 16. My goal is to contribute to the growth of an innovative company where I can apply my technical expertise and continue growing professionally in a multicultural and dynamic environment.",
+    "about_me": "About Me",
+    "featured": "Featured Project",
+    "visit": "Visit the Portfolio Section for more!"
+  },
+  "header": {
+    "title": "Computer Engineer"
+  }
+}

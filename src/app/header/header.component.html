@@ -1,20 +1,59 @@
 <div class="jumbotron" style="position: relative">
+  <div class="left" style="
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background-color: #21262d;
+  width: 10%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+">
+    <label
+      class="switch"
+      [ngClass]="{ 'active-switch': selectedLang === 'es' }"
+    >
+      <input
+        type="checkbox"
+        [checked]="selectedLang === 'es'"
+        (change)="setLang('es', $event)"
+      />
+      <span class="slider">es</span>
+    </label>
+
+    <label
+      class="switch"
+      [ngClass]="{ 'active-switch': selectedLang === 'en' }"
+    >
+      <input
+        type="checkbox"
+        [checked]="selectedLang === 'en'"
+        (change)="setLang('en', $event)"
+      />
+      <span class="slider">en</span>
+    </label>
+
+
+  </div>
   <div class="text-center">
     <h1 class="display-4">AlexTcw</h1>
-    <h3>Computer Engineer</h3>
+    <h3>{{'header.title' | translate}}</h3>
   </div>
-
   <div style="position: absolute; bottom: 5px; right: 10px">
     <a href="https://www.linkedin.com/in/alextcw/" target="_blank" class="">
-      <img src="assets/LLogo.png" width="24" height="24" class="rounded-circle me-2" />
+      <img src="./assets/img/logos/LLogo.png" width="24" height="24" class="rounded-circle me-2" />
     </a>
 
     <a href="https://www.facebook.com/profile.php?id=100017556910169" target="_blank" class="">
-      <img src="assets/flogo.png" width="24" height="24" class="rounded-circle me-2" />
+      <img src="./assets/img/logos/flogo.png" width="24" height="24" class="rounded-circle me-2" />
     </a>
 
     <a href="https://github.com/AlexTcw" target="_blank" class="">
-      <img src="assets/gLogo.png" width="24" height="24" class="rounded-circle me-2" />
+      <img src="./assets/img/logos/gLogo.png" width="24" height="24" class="rounded-circle me-2" />
     </a>
   </div>
 </div>

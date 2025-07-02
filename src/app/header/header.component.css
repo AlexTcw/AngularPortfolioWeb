@@ -9,3 +9,47 @@
   );
   color: #fff;
 }
+
+.switch {
+  display: inline-block;
+  position: relative;
+  width: 50%;    /* 50% del ancho del contenedor padre */
+  height: 50%;   /* 50% de la altura del contenedor padre */
+  cursor: pointer;
+}
+
+.switch input {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.switch .slider {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  z-index: 1;
+}
+
+.switch {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #2a2f36;
+  transition: background-color 0.3s;
+}
+
+.active-switch {
+  background-color: #863698; /* o cualquier color que prefieras */
+}

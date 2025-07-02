@@ -1,0 +1,11 @@
+{
+  "home": {
+    "overview": "Soy un Desarrollador Java Jr con más de dos años de experiencia en el desarrollo y mantenimiento de aplicaciones utilizando Java 8+, Spring Framework (Boot, Data, Security) y SQL. Tengo habilidades sólidas en Linux, Javascript, HTML, CSS, Docker, Docker Compose, Azure, AWS como medios de despliegue de mis aplicaciones. También cuento con experiencia en el uso de bases de datos como Oracle y PostgreSQL, además de conocimientos básicos en Angular 16 Mi objetivo es contribuir al crecimiento de una empresa innovadora, donde puedo aplicar mis conocimientos técnicos y continuar desarrollándome profesionalmente en un entorno multicultural y dinámico.",
+    "about_me": "Sobre mí",
+    "featured": "Proyecto Destacado",
+    "visit": "Visite la sección de portafolio para obtener más información!"
+  },
+  "header": {
+    "title": "Ingeniero en computación"
+  }
+}
