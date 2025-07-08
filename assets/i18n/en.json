@@ -37,6 +37,10 @@
       "summary": "Full-stack web application developed using Spring Boot for the backend and Angular for the frontend.",
       "description": "A comprehensive fullstack parking management system utilizing fingerprint authentication. This project leverages Docker, MySQL, Spring Boot, and Angular to provide a seamless and efficient solution for managing parking spaces with enhanced security."
     },
+    "api-gw": {
+      "summary": "Gateway project with authentication and routing capabilities.",
+      "description": "This project implements an API Gateway using Spring Cloud Gateway and Spring Security. It provides centralized routing, request filtering, and secure access to microservices using JWT authentication. Designed as part of a microservices architecture for a class project."
+    },
     "eshop": {
       "angular": {
         "summary": "Angular admin panel for managing products, orders, and users in an e-commerce app.",
