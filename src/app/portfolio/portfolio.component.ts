@@ -22,6 +22,10 @@ export class PortfolioComponent implements OnInit {
   nodejs: Boolean = false;
   aspnet: Boolean = false;
   react: Boolean = false;
+  spring: Boolean = false;
+  mysql: boolean = false;
+  postgres: Boolean = false;
+
   filtering: Boolean = false;
 
   constructor(
@@ -51,6 +55,9 @@ export class PortfolioComponent implements OnInit {
     if (this.java) {
       filterTags.push(Tag.JAVA);
     }
+    if (this.spring) {
+      filterTags.push(Tag.SPRINGBOOT);
+    }
 
     if (this.angular) {
       filterTags.push(Tag.ANGULAR);
@@ -63,6 +70,13 @@ export class PortfolioComponent implements OnInit {
     }
     if (this.react) {
       filterTags.push(Tag.REACT);
+    }
+
+    if (this.mysql) {
+      filterTags.push(Tag.MYSQL);
+    }
+    if (this.postgres) {
+      filterTags.push(Tag.POSTGRESQL)
     }
 
     if (

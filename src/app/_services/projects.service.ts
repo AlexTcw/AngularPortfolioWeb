@@ -21,7 +21,7 @@ export class ProjectsService {
     {
       id: 1,
       name: 'e-shop Angular App',
-      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
+      pictures: ['assets/img/projects/ecommercefront.jpg', 'assets/img/projects/ecommercefront-1.jpg', 'assets/img/projects/ecommercefront-2.jpg'],
       projectLink: 'https://github.com/AlexTcw/Tienda_front.git',
       summary: 'projects.eshop.angular.summary',
       description: 'projects.eshop.angular.description',
@@ -30,7 +30,7 @@ export class ProjectsService {
     {
       id: 2,
       name: 'e-shop Springboot App',
-      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
+      pictures: ['assets/img/projects/ecommerceback.jpg', 'assets/img/projects/ecommerceback-1.jpg', 'assets/img/projects/ecommerceback-2.jpg'],
       projectLink: 'https://github.com/AlexTcw/Tienda_back',
       summary: 'projects.eshop.spring.summary',
       description: 'projects.eshop.spring.description',
@@ -38,35 +38,12 @@ export class ProjectsService {
     },
     {
       id: 3,
-      name: 'Web API Project',
-      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
-      projectLink: '//www.github.com',
-      summary: 'Web API Project that was developed for a class project.',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tags: [Tag.CSHARP, Tag.ASPNET],
-    },
-    {
-      id: 4,
-      name: 'Chrome Extension',
-      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
-      projectLink: '//www.github.com',
-      summary:
-        'Developed a chrome extension that tracks the prices of furniture.',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tags: [Tag.JAVASCRIPT],
-    },
-    {
-      id: 5,
-      name: 'Mobile App',
-      pictures: ['assets/image1.png', 'assets/image2.png', 'assets/image3.png'],
-      projectLink: '//www.github.com',
-      summary:
-        'Mobile app developed in java that tracks the departure and arrival of trains.',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tags: [Tag.JAVA],
+      name: 'API Gateway with Spring Cloud Gateway and Spring Security',
+      pictures: ['assets/img/projects/api-gw.jpg', 'assets/img/projects/api-gw-1.jpg', 'assets/img/projects/api-gw-2.jpg'],
+      projectLink: 'https://github.com/AlexTcw/ApiGateway-SS.git',
+      summary: 'projects.api-gw.summary',
+      description: 'projects.api-gw.description',
+      tags: [Tag.JAVA, Tag.SPRINGBOOT, Tag.MYSQL],
     },
   ];
 

@@ -7,21 +7,28 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./resume.component.css'],
 })
 export class ResumeComponent {
-  isWorkExperienceOpen: boolean = false;
-  isEducationOpen: boolean = false;
-  isCertificationsOpen: boolean = false;
-  isSkillsOpen: boolean = false;
+  isWorkExperienceOpen = false;
+  isEducationOpen = false;
+  isCertificationsOpen = false;
+  isSkillsOpen = false;
 
-  constructor(private tittleService: Title, private renderer: Renderer2) {
-    this.tittleService.setTitle('AlexTcw - Resume');
+  constructor(private titleService: Title, private renderer: Renderer2) {
+    this.titleService.setTitle('AlexTcw - Resume');
   }
 
   DownloadFile() {
+    const lang = localStorage.getItem('lang');
+    const filename = lang === 'en' ? 'CV_en.pdf' : 'CV_es.pdf';
+    const filepath = `assets/files/${filename}`;
+
     const link = this.renderer.createElement('a');
-    link.setAttribute('target', '_blank');
-    link.setAttribute('href', '../../assets/Resume.pdf');
-    link.setAttribute('download', 'Resume.pdf');
+    this.renderer.setAttribute(link, 'href', filepath);
+    this.renderer.setAttribute(link, 'download', filename);
+    this.renderer.setAttribute(link, 'type', 'application/pdf');
+    this.renderer.setStyle(link, 'display', 'none');
+
+    this.renderer.appendChild(document.body, link);
     link.click();
-    link.remove();
+    this.renderer.removeChild(document.body, link);
   }
 }

@@ -37,6 +37,10 @@
       "summary": "Aplicación web full-stack desarrollada con Spring Boot para el backend y Angular para el frontend.",
       "description": "Un completo sistema de gestión de estacionamientos full-stack que utiliza autenticación por huella digital. Este proyecto aprovecha tecnologías como Docker, MySQL, Spring Boot y Angular para ofrecer una solución eficiente y fluida en la administración de espacios de estacionamiento con mayor seguridad."
     },
+    "api-gw": {
+      "summary": "Proyecto Gateway con capacidades de autenticación y enrutamiento.",
+      "description": "Este proyecto implementa un API Gateway utilizando Spring Cloud Gateway y Spring Security. Proporciona enrutamiento centralizado, filtrado de solicitudes y acceso seguro a microservicios mediante autenticación JWT. Fue desarrollado como parte de una arquitectura de microservicios para un proyecto académico."
+    },
     "eshop": {
       "angular": {
         "summary": "Panel de administración en Angular para gestionar productos, pedidos y usuarios en una aplicación de comercio electrónico.",

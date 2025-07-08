@@ -11,7 +11,7 @@ export class Tag{
     static readonly REACT = new Tag('React', 'blue');
     static readonly POSTGRESQL = new Tag('PostgreSQL', '#336791');
     static readonly MYSQL = new Tag('MySQL', 'magenta');
-    static readonly SPRINGBOOT = new Tag('MySQL', 'green');
+    static readonly SPRINGBOOT = new Tag('SpringBoot', 'green');
 
     private constructor(private readonly key: String, public readonly color: String){
 
